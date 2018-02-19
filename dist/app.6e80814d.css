@@ -1,0 +1,162 @@
+.PizzaCart__component___2SwVu {
+  background-color: #fff;
+  margin: 0 auto 0 20px;
+  padding: 40px;
+}
+
+.PizzaCart__item___2w3Yw {
+  margin-bottom: 20px;
+}
+
+.PizzaCart__row___3KnjW {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.PizzaCart__row___3KnjW > div {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.PizzaCart__row___3KnjW > div:last-child {
+  text-align: right;
+}
+
+.PizzaCart__row-name___cF73O {
+}
+
+.PizzaCart__row-name___cF73O > div:first-child {
+  font-weight: 500;
+}
+
+.PizzaCart__remove___1h8jO {
+  color: #88d;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.PizzaCart__remove___1h8jO:hover {
+  color: blue;
+}
+
+.PizzaCart__row-topping___1s15r {
+  color: #888;
+}
+
+.PizzaCart__row-total___QKbg5 {
+  font-weight: 500;
+}.PizzaMenuItem__component___rYOUP:not(:last-child) {
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 24px;
+}
+
+.PizzaMenuItem__row___2xef8 {
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 150%;
+}
+
+.PizzaMenuItem__row___2xef8 > div {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.PizzaMenuItem__row___2xef8 > div:last-child {
+  text-align: right;
+  margin-left: -29px;
+}
+
+.PizzaMenuItem__row-name___2x9r5 {
+  font-weight: 500;
+}
+
+.PizzaMenuItem__add-to-cart___2t7h6 {
+  position: absolute;
+  color: #88d;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #000;
+  margin-left: -43px;
+  /* margin-right: 32px; */
+  top: 91px;
+  /* right: 10px; */
+  /* left: 67px; */
+}
+
+.PizzaMenuItem__add-to-cart___2t7h6:hover {
+  color: blue;
+}
+
+.PizzaMenuItem__checkmark___Xv3_d:after {
+  content: ' \2714';
+}
+
+.PizzaMenuItem__pizza-dough___aKEw2 {
+}
+
+.PizzaMenuItem__pizza-dough___aKEw2:after {
+  color: #888;
+}
+
+.PizzaMenuItem__topping-selector___3GI3h {
+  color: inherit;
+  text-decoration: none;
+}
+
+.PizzaMenuItem__topping-selector___3GI3h:hover {
+  color: blue;
+}
+
+.PizzaMenuItem__topping--selected___2lbJe {
+}
+
+.PizzaMenuItem__topping--selected___2lbJe:after {
+  color: #0d0;
+}.PizzaMenu__component___3P-ct {
+  background-color: #fff;
+  margin: 0 20px 0 auto;
+  padding: 40px;
+}
+
+.PizzaMenu__title___1zrSY {
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  text-align: center;
+}html, body {
+  background-color: #eee;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.App__component___2uVxO {
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+}
+.App__component___2uVxO > div:first-child {
+  -ms-flex-preferred-size: 610px;
+      flex-basis: 610px;
+}
+.App__component___2uVxO > div:last-child {
+  -ms-flex-preferred-size: 380px;
+      flex-basis: 380px;
+}
+/* TODO: make this prettier */
+.App__status-message___3lEW1 {
+  color: red;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

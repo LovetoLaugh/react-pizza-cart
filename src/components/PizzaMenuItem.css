@@ -1,0 +1,59 @@
+@import 'theme/layout.css';
+
+.component:not(:last-child) {
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 24px;
+}
+.row {
+  display: flex;
+  line-height: 150%;
+}
+.row > div {
+  flex: 1;
+}
+.row > div:last-child {
+  text-align: right;
+  margin-left: -29px;
+}
+.row-name {
+  composes: row;
+  font-weight: var(--font-weight-bold);
+}
+.add-to-cart {
+  position: absolute;
+  color: #88d;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: -43px;
+  /* margin-right: 32px; */
+  top: 91px;
+  /* right: 10px; */
+  /* left: 67px; */
+}
+.add-to-cart:hover {
+  color: blue;
+}
+.checkmark:after {
+  content: ' ✔';
+}
+.pizza-dough {
+  composes: checkmark;
+}
+.pizza-dough:after {
+  color: #888;
+}
+.topping-selector {
+  color: inherit;
+  text-decoration: none;
+}
+.topping-selector:hover {
+  color: blue;
+}
+.topping--selected {
+  composes: checkmark;
+}
+.topping--selected:after {
+  color: #0d0;
+}
